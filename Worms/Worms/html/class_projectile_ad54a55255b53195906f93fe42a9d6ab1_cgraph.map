@@ -1,0 +1,7 @@
+<map id="Projectile::Projectile" name="Projectile::Projectile">
+<area shape="rect" id="node3" href="$class_game_object.html#ac6d9459fcd797c9c706f9db2fe25a5c4" title="Sets a body. " alt="" coords="193,5,343,32"/>
+<area shape="rect" id="node5" href="$class_projectile.html#a8b32ce7d21ec9032812b528e5cb87cc7" title="Updates this object. " alt="" coords="207,56,329,83"/>
+<area shape="rect" id="node7" href="$class_game_object.html#a2ff7dcbb3dd0c621c5f02cc2e318391e" title="Gets the body. " alt="" coords="395,31,546,57"/>
+<area shape="rect" id="node9" href="$class_game_object.html#ab647a2acbf45b8022d2b8d108b99023b" title="Kill object. " alt="" coords="392,81,549,108"/>
+<area shape="rect" id="node11" href="$class_object_detroyer.html#a46286d02b631af9e4acc164eaa5f3351" title="Kill all. " alt="" coords="597,74,773,115"/>
+</map>

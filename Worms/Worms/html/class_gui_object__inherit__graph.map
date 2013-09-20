@@ -1,0 +1,5 @@
+<map id="GuiObject" name="GuiObject">
+<area shape="rect" id="node7" href="$class_arsenal.html" title="Arsenal. " alt="" coords="37,155,104,181"/>
+<area shape="rect" id="node9" href="$class_button.html" title="Button. " alt="" coords="129,155,188,181"/>
+<area shape="rect" id="node2" href="$class_event_listener.html" title="Event listener. " alt="" coords="5,5,104,32"/>
+</map>

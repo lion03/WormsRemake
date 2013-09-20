@@ -1,0 +1,4 @@
+<map id="Worm::Worm" name="Worm::Worm">
+<area shape="rect" id="node3" href="$class_game_object.html#ac6d9459fcd797c9c706f9db2fe25a5c4" title="Sets a body. " alt="" coords="155,5,306,32"/>
+<area shape="rect" id="node5" href="$class_game_object.html#a2ff7dcbb3dd0c621c5f02cc2e318391e" title="Gets the body. " alt="" coords="155,56,306,83"/>
+</map>

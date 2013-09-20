@@ -1,0 +1,5 @@
+<map id="Button.h" name="Button.h">
+<area shape="rect" id="node3" href="$_gui_object_8h.html" title="Declares the graphical user interface object class. " alt="" coords="213,80,299,107"/>
+<area shape="rect" id="node5" href="$_action_func_8h.html" title="Declares the action function class. This Class is initial base for delegate pattern, The main pattern that is used for implementation of GUI in VC++ and C#, In an abstract base is used to get the possibility of storing functions with different signatures in single container and to trigger them from it. " alt="" coords="69,155,168,181"/>
+<area shape="rect" id="node11" href="$_event_dispatcher_8h.html" title="Declares the event dispatcher class. " alt="" coords="193,155,319,181"/>
+</map>

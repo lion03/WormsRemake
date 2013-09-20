@@ -1,0 +1,6 @@
+<map id="SplashState::HandleEvents" name="SplashState::HandleEvents">
+<area shape="rect" id="node3" href="$class_game_engine.html#a8adfc7af39968e60793ad7833fe063ea" title="Gets the window. " alt="" coords="241,5,410,32"/>
+<area shape="rect" id="node5" href="$class_game_engine.html#a7c82c93a73d71097936fea7f19be141c" title="Quits this object. " alt="" coords="261,56,390,83"/>
+<area shape="rect" id="node7" href="$class_game_engine.html#a90003304745efac9eab4cb5f09a1bf0b" title="Change state. " alt="" coords="235,107,415,133"/>
+<area shape="rect" id="node9" href="$class_menu_state.html#a87d9e64d93e58fcab73004ae341e241f" title="Gets the instance. " alt="" coords="245,157,405,184"/>
+</map>

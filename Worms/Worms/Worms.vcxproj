@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Box2dDebug|Win32">
+      <Configuration>Box2dDebug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A373783D-A29E-437B-9433-651C44FE2DBC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Worms</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v100</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Box2dDebug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v100</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v100</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Box2dDebug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\lib\Box2D;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Box2dDebug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\lib\Box2D;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\boost_1_53_0;C:\Users\Leon Laptop\Documents\Visual Studio 2012\Projects\Worms\Worms\External\Clipper\cpp_console;C:\Users\Leon Laptop\Documents\Visual Studio 2012\Projects\Worms\Worms\External\Clipper\cpp_cairo;C:\Users\Leon Laptop\Documents\Visual Studio 2012\Projects\Worms\Worms\External\Clipper\cpp_agg;C:\Users\Leon Laptop\Documents\Visual Studio 2012\Projects\Worms\Worms\External\poly2tri;C:\Users\Leon Laptop\Documents\Visual Studio 2012\Projects\Worms\Worms\External\Clipper;C:\Users\Leon\Documents\Visual Studio 2012\Projects\Worms\Worms\External\TinyXML;C:\Users\Leon\Documents\Visual Studio 2012\Projects\Worms\Worms\External;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-window-d.lib;sfml-system-d.lib;sfml-main-d.lib;sfml-graphics-d.lib;sfml-audio-d.lib;glfw.lib;glu32.lib;glfwdll.lib;Box2D.lib;FreeGLUT.lib;GLUI.lib;opengl32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AdditionalLibraryDirectories>$(ProjectDir)\lib\Box2D\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Box2dDebug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_BOX2D_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\Leon Laptop\Documents\Visual Studio 2012\Projects\Worms\Worms\Clipper\cpp_console;C:\Users\Leon Laptop\Documents\Visual Studio 2012\Projects\Worms\Worms\Clipper\cpp_cairo;C:\Users\Leon Laptop\Documents\Visual Studio 2012\Projects\Worms\Worms\Clipper\cpp_agg;C:\Users\Leon Laptop\Documents\Visual Studio 2012\Projects\Worms\Worms\poly2tri;C:\Users\Leon Laptop\Documents\Visual Studio 2012\Projects\Worms\Worms\Clipper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-window-d.lib;sfml-system-d.lib;sfml-main-d.lib;sfml-graphics-d.lib;glfw.lib;glu32.lib;glfwdll.lib;Box2D.lib;FreeGLUT.lib;GLUI.lib;opengl32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\lib\Box2D\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\Leon Laptop\Documents\Visual Studio 2012\Projects\Worms\Worms\poly2tri;C:\Users\Leon Laptop\Documents\Visual Studio 2012\Projects\Worms\Worms\Clipper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>sfml-window.lib;sfml-system.lib;sfml-graphics.lib;sfml-main.lib;sfml-audio.lib;glfw.lib;glu32.lib;glfwdll.lib;Box2D.lib;FreeGLUT.lib;GLUI.lib;opengl32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AdditionalLibraryDirectories>$(ProjectDir)\lib\Box2D\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Arsenal.cpp" />
+    <ClCompile Include="Bazooka.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="External\Clipper\clipper.cpp" />
+    <ClCompile Include="EventDispatcher.cpp" />
+    <ClCompile Include="External\spine\Animation.c" />
+    <ClCompile Include="External\spine\AnimationState.c" />
+    <ClCompile Include="External\spine\AnimationStateData.c" />
+    <ClCompile Include="External\spine\Atlas.c" />
+    <ClCompile Include="External\spine\AtlasAttachmentLoader.c" />
+    <ClCompile Include="External\spine\Attachment.c" />
+    <ClCompile Include="External\spine\AttachmentLoader.c" />
+    <ClCompile Include="External\spine\Bone.c" />
+    <ClCompile Include="External\spine\BoneData.c" />
+    <ClCompile Include="External\spine\extension.c" />
+    <ClCompile Include="External\spine\Json.c" />
+    <ClCompile Include="External\spine\RegionAttachment.c" />
+    <ClCompile Include="External\spine\Skeleton.c" />
+    <ClCompile Include="External\spine\SkeletonData.c" />
+    <ClCompile Include="External\spine\SkeletonJson.c" />
+    <ClCompile Include="External\spine\Skin.c" />
+    <ClCompile Include="External\spine\Slot.c" />
+    <ClCompile Include="External\spine\SlotData.c" />
+    <ClCompile Include="External\spine\spine-sfml.cpp" />
+    <ClCompile Include="External\TinyXML\tinystr.cpp" />
+    <ClCompile Include="External\TinyXML\tinyxml.cpp" />
+    <ClCompile Include="External\TinyXML\tinyxmlerror.cpp" />
+    <ClCompile Include="External\TinyXML\tinyxmlparser.cpp" />
+    <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MapLoader.cpp" />
+    <ClCompile Include="MenuState.cpp" />
+    <ClCompile Include="Missile.cpp" />
+    <ClCompile Include="NewGameState.cpp" />
+    <ClCompile Include="ObjectDetroyer.cpp" />
+    <ClCompile Include="PlayState.cpp" />
+    <ClCompile Include="External\poly2tri\common\shapes.cc" />
+    <ClCompile Include="External\poly2tri\sweep\advancing_front.cc" />
+    <ClCompile Include="External\poly2tri\sweep\cdt.cc" />
+    <ClCompile Include="External\poly2tri\sweep\sweep.cc" />
+    <ClCompile Include="External\poly2tri\sweep\sweep_context.cc" />
+    <ClCompile Include="Projectile.cpp" />
+    <ClCompile Include="ProjectileCounter.cpp" />
+    <ClCompile Include="Render.cpp" />
+    <ClCompile Include="Shotgun.cpp" />
+    <ClCompile Include="SplashState.cpp" />
+    <ClCompile Include="StandardCursor.cpp" />
+    <ClCompile Include="Team.cpp" />
+    <ClCompile Include="Uzi.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+    <ClCompile Include="Worm.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActionFunc.h" />
+    <ClInclude Include="Animated.h" />
+    <ClInclude Include="Arsenal.h" />
+    <ClInclude Include="Bazooka.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="External\Clipper\clipper.hpp" />
+    <ClInclude Include="ContatctListener.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="DataBase.h" />
+    <ClInclude Include="EventDispatcher.h" />
+    <ClInclude Include="GameEngine.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="Ground.h" />
+    <ClInclude Include="GuiObject.h" />
+    <ClInclude Include="Macros.h" />
+    <ClInclude Include="MapLoader.h" />
+    <ClInclude Include="MenuState.h" />
+    <ClInclude Include="Missile.h" />
+    <ClInclude Include="NewGameState.h" />
+    <ClInclude Include="ObjectDetroyer.h" />
+    <ClInclude Include="PlayState.h" />
+    <ClInclude Include="External\poly2tri\common\shapes.h" />
+    <ClInclude Include="External\poly2tri\common\utils.h" />
+    <ClInclude Include="External\poly2tri\poly2tri.h" />
+    <ClInclude Include="External\poly2tri\sweep\advancing_front.h" />
+    <ClInclude Include="External\poly2tri\sweep\cdt.h" />
+    <ClInclude Include="External\poly2tri\sweep\sweep.h" />
+    <ClInclude Include="External\poly2tri\sweep\sweep_context.h" />
+    <ClInclude Include="Projectile.h" />
+    <ClInclude Include="ProjectileCounter.h" />
+    <ClInclude Include="Render.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="Shotgun.h" />
+    <ClInclude Include="SoundDB.h" />
+    <ClInclude Include="External\spine\Animation.h" />
+    <ClInclude Include="External\spine\AnimationState.h" />
+    <ClInclude Include="External\spine\AnimationStateData.h" />
+    <ClInclude Include="External\spine\Atlas.h" />
+    <ClInclude Include="External\spine\AtlasAttachmentLoader.h" />
+    <ClInclude Include="External\spine\Attachment.h" />
+    <ClInclude Include="External\spine\AttachmentLoader.h" />
+    <ClInclude Include="External\spine\Bone.h" />
+    <ClInclude Include="External\spine\BoneData.h" />
+    <ClInclude Include="External\spine\extension.h" />
+    <ClInclude Include="External\spine\Json.h" />
+    <ClInclude Include="External\spine\RegionAttachment.h" />
+    <ClInclude Include="External\spine\Skeleton.h" />
+    <ClInclude Include="External\spine\SkeletonData.h" />
+    <ClInclude Include="External\spine\SkeletonJson.h" />
+    <ClInclude Include="External\spine\Skin.h" />
+    <ClInclude Include="External\spine\Slot.h" />
+    <ClInclude Include="External\spine\SlotData.h" />
+    <ClInclude Include="External\spine\spine-sfml.h" />
+    <ClInclude Include="External\spine\spine.h" />
+    <ClInclude Include="SplashState.h" />
+    <ClInclude Include="StandardCursor.h" />
+    <ClInclude Include="Team.h" />
+    <ClInclude Include="External\TinyXML\tinystr.h" />
+    <ClInclude Include="External\TinyXML\tinyxml.h" />
+    <ClInclude Include="Uzi.h" />
+    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="Worm.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Cursor.cur" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

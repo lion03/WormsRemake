@@ -1,0 +1,46 @@
+123.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm
+  rotate: false
+  xy: 105, 26
+  size: 6, 9
+  orig: 6, 9
+  offset: 0, 0
+  index: -1
+uzi
+  rotate: false
+  xy: 1, 1
+  size: 30, 22
+  orig: 30, 22
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 1, 26
+  size: 23, 27
+  orig: 23, 27
+  offset: 0, 0
+  index: -1
+bazooka
+  rotate: false
+  xy: 25, 26
+  size: 79, 32
+  orig: 79, 32
+  offset: 0, 0
+  index: -1
+sight
+  rotate: false
+  xy: 32, 1
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+shotgun
+  rotate: false
+  xy: 57, 1
+  size: 55, 15
+  orig: 55, 15
+  offset: 0, 0
+  index: -1

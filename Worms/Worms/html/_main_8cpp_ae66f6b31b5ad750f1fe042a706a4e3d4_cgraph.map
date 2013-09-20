@@ -1,0 +1,10 @@
+<map id="main" name="main">
+<area shape="rect" id="node3" href="$class_resource_manager.html#a448acbbcfa83ff31d6c258d2c57b4d45" title="Gets the instence. " alt="" coords="107,5,309,32"/>
+<area shape="rect" id="node5" href="$class_resource_manager.html#a002309d300ce3c53626c052df46001cd" title="Gets a resource. " alt="" coords="104,56,312,83"/>
+<area shape="rect" id="node7" href="$class_game_engine.html#a85b9b5f39ff6a72d12fa975e948814cb" title="Pushes a state. " alt="" coords="125,107,291,133"/>
+<area shape="rect" id="node9" href="$class_splash_state.html#a9ba08f47d2961a21421e45f17cfb366d" title="Gets the instence. " alt="" coords="124,157,292,184"/>
+<area shape="rect" id="node11" href="$class_game_engine.html#ac9d8d784ef78ea2e860786298d75f0e1" title="Runnings this object. " alt="" coords="132,208,284,235"/>
+<area shape="rect" id="node13" href="$class_game_engine.html#aa37385ab13d086472ca8c17013975152" title="Handles the events. " alt="" coords="116,259,300,285"/>
+<area shape="rect" id="node15" href="$class_game_engine.html#aca8712bde900f00b5866e96b8ace7c33" title="Updates this object. " alt="" coords="135,309,281,336"/>
+<area shape="rect" id="node17" href="$class_game_engine.html#a88120d3529a3498bdc4f9efa8f63cf15" title="Draws this object. " alt="" coords="141,360,275,387"/>
+</map>

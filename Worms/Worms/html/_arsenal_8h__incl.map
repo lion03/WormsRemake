@@ -1,0 +1,18 @@
+<map id="Arsenal.h" name="Arsenal.h">
+<area shape="rect" id="node7" href="$_gui_object_8h.html" title="Declares the graphical user interface object class. " alt="" coords="317,320,408,347"/>
+<area shape="rect" id="node24" href="$_button_8h.html" title="Declares the button class. " alt="" coords="370,237,440,264"/>
+<area shape="rect" id="node29" href="$_bazooka_8h.html" title="Declares the bazooka class. " alt="" coords="2405,80,2488,107"/>
+<area shape="rect" id="node122" href="$_shotgun_8h.html" title="Declares the shotgun class. " alt="" coords="2513,80,2593,107"/>
+<area shape="rect" id="node129" href="$_uzi_8h.html" title="Declares the uzi class. " alt="" coords="2618,80,2669,107"/>
+<area shape="rect" id="node9" href="$_action_func_8h.html" title="Declares the action function class. This Class is initial base for delegate pattern, The main pattern that is used for implementation of GUI in VC++ and C#, In an abstract base is used to get the possibility of storing functions with different signatures in single container and to trigger them from it. " alt="" coords="313,395,412,421"/>
+<area shape="rect" id="node15" href="$_event_dispatcher_8h.html" title="Declares the event dispatcher class. " alt="" coords="162,395,288,421"/>
+<area shape="rect" id="node31" href="$_weapon_8h.html" title="Declares the weapon class. " alt="" coords="2558,155,2639,181"/>
+<area shape="rect" id="node33" href="$_projectile_8h.html" title="Declares the projectile class. " alt="" coords="802,237,888,264"/>
+<area shape="rect" id="node69" href="$_macros_8h.html" title="Declares the macros class. " alt="" coords="3803,395,3879,421"/>
+<area shape="rect" id="node40" href="$_game_object_8h.html" title="Declares the game object class. " alt="" coords="589,395,688,421"/>
+<area shape="rect" id="node54" href="$_resource_manager_8h.html" title="Declares the resource manager class. " alt="" coords="1436,395,1575,421"/>
+<area shape="rect" id="node59" href="$_ground_8h.html" title="Declares the ground class. " alt="" coords="980,320,1055,347"/>
+<area shape="rect" id="node46" href="$_object_detroyer_8h.html" title="Declares the object destroyer class. " alt="" coords="608,469,728,496"/>
+<area shape="rect" id="node78" href="$_map_loader_8h_source.html" title="MapLoader.h" alt="" coords="1013,395,1109,421"/>
+<area shape="rect" id="node126" href="$_bullet_8h_source.html" title="Bullet.h" alt="" coords="1639,155,1705,181"/>
+</map>

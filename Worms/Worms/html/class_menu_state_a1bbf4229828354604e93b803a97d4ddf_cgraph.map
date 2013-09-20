@@ -1,0 +1,5 @@
+<map id="MenuState::HandleEvents" name="MenuState::HandleEvents">
+<area shape="rect" id="node3" href="$class_game_engine.html#a8adfc7af39968e60793ad7833fe063ea" title="Gets the window. " alt="" coords="227,5,397,32"/>
+<area shape="rect" id="node5" href="$class_event_dispatcher.html#acbc20b9e2397ed9d6da4081b05195bf1" title="Notifies all. " alt="" coords="227,56,397,83"/>
+<area shape="rect" id="node7" href="$class_game_engine.html#a7c82c93a73d71097936fea7f19be141c" title="Quits this object. " alt="" coords="247,107,377,133"/>
+</map>

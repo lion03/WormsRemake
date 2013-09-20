@@ -1,0 +1,10 @@
+<map id="projectileGround" name="projectileGround">
+<area shape="rect" id="node3" href="$class_projectile.html#a6ff0bc0a5746332f1bfe438c1a95ef0a" title="Explodes this object. " alt="" coords="185,56,314,83"/>
+<area shape="rect" id="node11" href="$class_ground.html#a2610e93edd9e34289021a46afae95f0e" title="Sets clip off polygon. " alt="" coords="395,107,549,133"/>
+<area shape="rect" id="node13" href="$class_projectile.html#ac9065e321c72a8dd66b7b2337e3c1da0" title="Gets exponent polygon. " alt="" coords="397,157,547,184"/>
+<area shape="rect" id="node17" href="$class_game_object.html#ab647a2acbf45b8022d2b8d108b99023b" title="Kill object. " alt="" coords="171,212,328,239"/>
+<area shape="rect" id="node5" href="$class_game_object.html#a2ff7dcbb3dd0c621c5f02cc2e318391e" title="Gets the body. " alt="" coords="397,56,547,83"/>
+<area shape="rect" id="node7" href="$class_projectile.html#a7910041cba56cd6251d23decf8150430" title="Applies the blast impulse. " alt="" coords="377,5,567,32"/>
+<area shape="rect" id="node9" href="$class_game_object.html#a889b706953245dbb289d3e79112b8c5e" title="Applies the force. " alt="" coords="617,5,783,32"/>
+<area shape="rect" id="node19" href="$class_object_detroyer.html#a46286d02b631af9e4acc164eaa5f3351" title="Kill all. " alt="" coords="384,209,560,250"/>
+</map>

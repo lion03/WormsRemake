@@ -1,0 +1,7 @@
+<map id="Worm" name="Worm">
+<area shape="rect" id="node2" href="$class_game_object.html" title="Game object. " alt="" coords="62,96,156,123"/>
+<area shape="rect" id="node8" href="$struct_game_object_1_1_entety.html" title="Entety. " alt="" coords="5,187,147,213"/>
+<area shape="rect" id="node6" href="$class_object_detroyer.html" title="Object destroyer. " alt="" coords="113,5,223,32"/>
+<area shape="rect" id="node11" href="$class_event_listener.html" title="Event listener. " alt="" coords="181,96,280,123"/>
+<area shape="rect" id="node13" href="$struct_worm_1_1_animation_status.html" title="Animation status. " alt="" coords="305,96,465,123"/>
+</map>

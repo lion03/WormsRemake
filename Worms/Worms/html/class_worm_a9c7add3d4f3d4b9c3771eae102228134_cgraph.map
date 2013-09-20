@@ -1,0 +1,5 @@
+<map id="Worm::receiveEvent" name="Worm::receiveEvent">
+<area shape="rect" id="node3" href="$class_game_object.html#a2ff7dcbb3dd0c621c5f02cc2e318391e" title="Gets the body. " alt="" coords="193,5,343,32"/>
+<area shape="rect" id="node5" href="$class_team.html#a97fb7ed03838bc3926d8253753a6d3b4" title="Gets the weapon. " alt="" coords="204,56,332,83"/>
+<area shape="rect" id="node7" href="$class_weapon.html#a09c6d06827292eb0bc0c041d08081b97" title="Fire shot. " alt="" coords="207,107,329,133"/>
+</map>

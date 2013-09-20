@@ -1,0 +1,1349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="ContatctListener" Collapsed="true">
+    <Position X="37.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgEAAAAAAAAAAAACAQAAAEAAAAIAAAAA=</HashCode>
+      <FileName>ContatctListener.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObject">
+    <Position X="4.75" Y="5.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="GameObject::_entityCategory" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObject.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="GameObject::Entety" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObject.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABEAAAEAAAEQAAAAQAMAAQQCAAACAAAgAAAACAIEAAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ground">
+    <Position X="3.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgAAIAQEKAAQAAAAAIAAQAIQAACEAAAAAAAAACEETA=</HashCode>
+      <FileName>Ground.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projectile">
+    <Position X="7" Y="11" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Projectile::RayCastClosestCallback" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Projectile.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BkAEAAAAAAAAAAACCkIIAQACAAAAAQgAAAIAgAAUpEA=</HashCode>
+      <FileName>Projectile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectDetroyer" Collapsed="true">
+    <Position X="39.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAQAAAAAQAAAAAgAEABAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectDetroyer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Worm">
+    <Position X="0.75" Y="11" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Worm::AnimationType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Worm.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Worm::AnimationDirection" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Worm.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="Worm::AnimationStatus" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Worm.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gAMGABARBAYIABAkBIIAAUQAgAQCBBQANAACIIrEAAE=</HashCode>
+      <FileName>Worm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Controller" Collapsed="true">
+    <Position X="39.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAgCQgAAAAAAAAAAgAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimationDB">
+    <Position X="13.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAQAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>AnimationDB.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Animation">
+    <Position X="13.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAIAAAAAAAAAAAIAE=</HashCode>
+      <FileName>Animation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundDB">
+    <Position X="17" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>SoundDB.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataBase">
+    <Position X="17" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventListener">
+    <Position X="0.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventDispatcher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventDispatcher" Collapsed="true">
+    <Position X="32.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAAAACAAABIIAAAAAIAAAAAAAAAAAQAAAAAAAIAAAA=</HashCode>
+      <FileName>EventDispatcher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClipperLib::Int128" Collapsed="true">
+    <Position X="35.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAACQAAAAAAAAAAQAAgAAAAAAg=</HashCode>
+      <FileName>External\Clipper\clipper.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClipperLib::PolyOffsetBuilder" Collapsed="true">
+    <Position X="32.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAFAAAAQAQABAAIAAAABBAQAAAAAAAAAAICAABAAA=</HashCode>
+      <FileName>External\Clipper\clipper.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClipperLib::PolyNode" Collapsed="true">
+    <Position X="14" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIEIAAAAAIQAAAIAAgAAIAgAEAAAAAAAA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClipperLib::Clipper" Collapsed="true">
+    <Position X="11" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggAgoI4kACMjBCUAMAUwB0AQSAkykDtCxNwABMBIAGk=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClipperLib::PolyTree" Collapsed="true">
+    <Position X="14" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAQBAAAE=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClipperLib::ClipperBase" Collapsed="true">
+    <Position X="11" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAAgAAAAgQgIBAAAAAIEAAAgAAQAAAAAAAAAACBAAQA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClipperLib::clipperException" Collapsed="true">
+    <Position X="35.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAiAAAAAAAAAEAA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlParsingData" Collapsed="true">
+    <Position X="35.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAQABAAEAAAAAAAAAAEEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\TinyXML\tinyxmlparser.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionFunc" Collapsed="true">
+    <Position X="13.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAQAAQ=</HashCode>
+      <FileName>ActionFunc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionFunc0Arg&lt;Pmf&gt;" Collapsed="true">
+    <Position X="11.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAQAAAAIAAAAAAAAAAAAAAQAAAAAAAAAAAAQ=</HashCode>
+      <FileName>ActionFunc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionFunc1Arg&lt;P, Arg&gt;" Collapsed="true">
+    <Position X="13.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAQAAEAAAAAAAAAAAIAAAAQAAAAAAAAAAAAQ=</HashCode>
+      <FileName>ActionFunc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionFunc2Arg&lt;P, Arg1, Arg2&gt;" Collapsed="true">
+    <Position X="15.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAQAAAAAAAAAAAAAAIAAAAQACAAAAAAAAAAQ=</HashCode>
+      <FileName>ActionFunc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Animated" Collapsed="true">
+    <Position X="32.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Animated.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Button" Collapsed="true">
+    <Position X="17.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kEAAABAAAAAQEBAAAAIAAQAIgIAQABAAAQBAAAEAAAA=</HashCode>
+      <FileName>Button.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GuiObject" Collapsed="true">
+    <Position X="19" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACBIAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GuiObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerlinNoise" Collapsed="true">
+    <Position X="30.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAIAAAAAAAAAAAAgAASAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>PerlinNoise.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResourceManager&lt;ResourceType&gt;" Collapsed="true">
+    <Position X="34" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAGAAAAAAAAAAAAEAAAAAIAAg=</HashCode>
+      <FileName>ResourceManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shotgun" Collapsed="true">
+    <Position X="10.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAgAICAAAAAABAAAAAAAACAEAAAABQBAAAACAAA=</HashCode>
+      <FileName>Shotgun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StandardCursor" Collapsed="true">
+    <Position X="37.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAgAAAAAAQAAAAAAAEAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>StandardCursor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Team" Collapsed="true">
+    <Position X="13.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAEABAYAAAAAAAAAgoAACAAAAAIARAEEAAAIwADCEA=</HashCode>
+      <FileName>Team.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Uzi" Collapsed="true">
+    <Position X="12.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAIAAAAAAABAAAAAAAAAAAAAAABQAAAAAKAAA=</HashCode>
+      <FileName>Uzi.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EEDebugDraw3" Collapsed="true">
+    <Position X="30.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAIABAAAAAAAQAgAAAAECAARCIEAEBAAAAAAA=</HashCode>
+      <FileName>Render.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlString" Collapsed="true">
+    <Position X="16" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAIAAAAEAAAlAsICAQACAAEAAIIAiQExCAABAAA=</HashCode>
+      <FileName>External\TinyXML\tinystr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlOutStream" Collapsed="true">
+    <Position X="16" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\TinyXML\tinystr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlVisitor" Collapsed="true">
+    <Position X="16" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAQAAAAAAAAAAAAAIAAAAAAAAAAAgAA=</HashCode>
+      <FileName>External\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlBase" Collapsed="true">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAgggBQAEAgEAAAQAgBhABASADAQAiAIAAAiAAAkAAA=</HashCode>
+      <FileName>External\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlNode" Collapsed="true">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAgAAAIAEAEiiBAhEAAYQAEAAqBgCECAYtgAAtAIDA=</HashCode>
+      <FileName>External\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlAttribute" Collapsed="true">
+    <Position X="14" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQggAAAgAAQggAEAABAAQQAAAIEAGQAAABgQAIEEAA=</HashCode>
+      <FileName>External\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlAttributeSet" Collapsed="true">
+    <Position X="32.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAQAAQAAABAAAAAAJAAAAACAiQAAAAAA=</HashCode>
+      <FileName>External\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlElement" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAACACQAAJAAAAIIEAgQSAAA0BCBAgAAAEIFE=</HashCode>
+      <FileName>External\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlComment" Collapsed="true">
+    <Position X="2.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAIAAAAAAAAAAAAAAAQAAAAAAAAEIAAAgAAAEIBA=</HashCode>
+      <FileName>External\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlText" Collapsed="true">
+    <Position X="5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAgAAAABAAAAAAAAEAAAABAAAABgAEAAAAgAAAEIBQ=</HashCode>
+      <FileName>External\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlDeclaration" Collapsed="true">
+    <Position X="7.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAgACCAAAQAAAAAAAAAAAAAgAAAAIEAAAIoAAAEKBA=</HashCode>
+      <FileName>External\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlUnknown" Collapsed="true">
+    <Position X="9.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAEAAAAAAAAAAAAACAAAAAAEAAAAgAIAEIBA=</HashCode>
+      <FileName>External\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlDocument" Collapsed="true">
+    <Position X="11.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAABBAQAQABAgEICAAAAAEQBAEBFAAgAEgUJBA=</HashCode>
+      <FileName>External\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlHandle" Collapsed="true">
+    <Position X="34" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEAAAAEAAAIAAAEgAIAABAAAAAAAAAIEoCAEAABA=</HashCode>
+      <FileName>External\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlPrinter" Collapsed="true">
+    <Position X="16" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAEABEhAQgBAAQAAAAMAAAAAAAAABQIBQAwAA=</HashCode>
+      <FileName>External\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine" Collapsed="true">
+    <Position X="34" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIQBAIAQAQACBgAAAAQSAAAgAEAgkAIIUAAEAEAAAQA=</HashCode>
+      <FileName>GameEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameState" Collapsed="true">
+    <Position X="12.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAAAAABgAAAAAQAAAAAAgAAAAAAAACAEgAIAA=</HashCode>
+      <FileName>GameState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuState" Collapsed="true">
+    <Position X="10.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQlAAAAAAAAAgAACgAQAAAAAAAAEAQAAAACAEgAAAA=</HashCode>
+      <FileName>MenuState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayState" Collapsed="true">
+    <Position X="12.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQwECAAAgQAAgAQFIAQAAAAAACAAAAAAACCkEghIAA=</HashCode>
+      <FileName>PlayState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SplashState" Collapsed="true">
+    <Position X="14.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAAIAIAgQgBAAQABAAAAAAAAAAAAACAEgAAAA=</HashCode>
+      <FileName>SplashState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arsenal" Collapsed="true">
+    <Position X="20" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAEABAAAAAAAAAAAAJAQAAAMAAAAAAgAABCAAAEAAA=</HashCode>
+      <FileName>Arsenal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bazooka" Collapsed="true">
+    <Position X="8.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAIAAAAABAAAAAAAAAAAABQAAAAACAAA=</HashCode>
+      <FileName>Bazooka.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Weapon" Collapsed="true">
+    <Position X="10.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCAAAAAQAAAAAARAAAgAAAAAAiAAAAgABQAAIAACAQA=</HashCode>
+      <FileName>Weapon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="p2t::Triangle" Collapsed="true">
+    <Position X="37.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACJEYAAEAAAQABAEAAMCAEggBEACIwggEAAgBRIAA=</HashCode>
+      <FileName>External\poly2tri\common\shapes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="p2t::AdvancingFront" Collapsed="true">
+    <Position X="30.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAAASAAgAEQgAACAAAAAAABAABAAAAAECAAAAAAAgA=</HashCode>
+      <FileName>External\poly2tri\sweep\advancing_front.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="p2t::CDT" Collapsed="true">
+    <Position X="34" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAQAAAgAQACAACAAAAAAAAIAAAAAAAAAIAAAAACA=</HashCode>
+      <FileName>External\poly2tri\sweep\cdt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="p2t::SweepContext" Collapsed="true">
+    <Position X="30.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBBAIUCAghEQIAEAAIAMAAAhAQABgCAAmAAABCAIAgA=</HashCode>
+      <FileName>External\poly2tri\sweep\sweep_context.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="p2t::Sweep" Collapsed="true">
+    <Position X="39.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAQAAIAAgEAEATACAAQBAFACIIBmgoAAOAgAQBCIAI=</HashCode>
+      <FileName>External\poly2tri\sweep\sweep.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="spine::SkeletonDrawable" Collapsed="true">
+    <Position X="35.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAQAAAAAAIAAAAQAAAAIAAEAAAAAABEAAA=</HashCode>
+      <FileName>External\spine\spine-sfml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MapLoader" Collapsed="true">
+    <Position X="37.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAQAAAAAAAQAAAAAFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Water" Collapsed="true">
+    <Position X="10.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACEAAAAAAQgIAAQAAAAAkAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Water.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bullet" Collapsed="true">
+    <Position X="8.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAEAAIAAAAQAAA=</HashCode>
+      <FileName>Bullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Missile" Collapsed="true">
+    <Position X="6" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAQAAAACABAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Missile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ClipperLib::DoublePoint" Collapsed="true">
+    <Position X="35.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>External\Clipper\clipper.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ClipperLib::IntPoint" Collapsed="true">
+    <Position X="32.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ClipperLib::TEdge" Collapsed="true">
+    <Position X="34" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAigACAAAiAgIAMQAgRAAQACAAEAABAAEIABAA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ClipperLib::IntersectNode" Collapsed="true">
+    <Position X="30.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAABIAAAA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ClipperLib::LocalMinima" Collapsed="true">
+    <Position X="39.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAIAIAA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ClipperLib::Scanbeam" Collapsed="true">
+    <Position X="39.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAIAA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ClipperLib::OutPt" Collapsed="true">
+    <Position X="32.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAIAAgA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ClipperLib::OutRec" Collapsed="true">
+    <Position X="34" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAKAAAAEAAIAAAAAAAAgA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ClipperLib::JoinRec" Collapsed="true">
+    <Position X="35.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ClipperLib::HorzJoinRec" Collapsed="true">
+    <Position X="39.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAACAAAA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ClipperLib::IntRect" Collapsed="true">
+    <Position X="34" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAgAAAAIAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_TimelineVtable" Collapsed="true">
+    <Position X="32.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Animation.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_Entry" Collapsed="true">
+    <Position X="39.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAIgAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>External\spine\AnimationState.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_03d4_1" Collapsed="true">
+    <Position X="31" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEgAgAAAAAAAAAAAJAAAAAAAAAAAIAAAAAAAgAAAA=</HashCode>
+      <FileName>spine\AnimationState.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_ToEntry" Collapsed="true">
+    <Position X="34" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>External\spine\AnimationStateData.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_FromEntry" Collapsed="true">
+    <Position X="30.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>External\spine\AnimationStateData.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_03d6_1" Collapsed="true">
+    <Position X="31" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>spine\Atlas.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_AttachmentVtable" Collapsed="true">
+    <Position X="37.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Attachment.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_AttachmentLoaderVtable" Collapsed="true">
+    <Position X="35.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\AttachmentLoader.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_03e1_1" Collapsed="true">
+    <Position X="35.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>spine\SkeletonJson.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_03e2_1" Collapsed="true">
+    <Position X="37.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>spine\Skin.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_03e3_1" Collapsed="true">
+    <Position X="39" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>spine\Slot.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TiXmlCursor" Collapsed="true">
+    <Position X="37.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQACAAAAAAAAAAAABABAAAA=</HashCode>
+      <FileName>External\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Timeline" Collapsed="true">
+    <Position X="35.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Animation.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_03bf_1" Collapsed="true">
+    <Position X="31" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAKAAAAAIAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>spine\Animation.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_03bf_2" Collapsed="true">
+    <Position X="31" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>spine\Animation.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BaseTimeline" Collapsed="true">
+    <Position X="5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAEAAAAAAAABAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>External\spine\Animation.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_03bf_3" Collapsed="true">
+    <Position X="31" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAgAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>spine\Animation.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_03bf_4" Collapsed="true">
+    <Position X="27" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAgAAAAAEAAAAAAAAAAAAAAAAAAgAAAAAQAAAAA=</HashCode>
+      <FileName>spine\Animation.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_03c0_1" Collapsed="true">
+    <Position X="23" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAACAAAAAAAAIAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>spine\AnimationState.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_03c1_1" Collapsed="true">
+    <Position X="30" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>spine\AnimationStateData.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="AtlasPage" Collapsed="true">
+    <Position X="35.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAgAAQAQAAASAAAAABUAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>External\spine\Atlas.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="AtlasRegion" Collapsed="true">
+    <Position X="37.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAATEUQAQAAAAEDQEAAAAABJgAAIBAAA=</HashCode>
+      <FileName>External\spine\Atlas.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_03c2_4" Collapsed="true">
+    <Position X="27" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>spine\Atlas.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_03c3_1" Collapsed="true">
+    <Position X="19" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>spine\AtlasAttachmentLoader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Attachment" Collapsed="true">
+    <Position X="39.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Attachment.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="AttachmentLoader" Collapsed="true">
+    <Position X="30.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>External\spine\AttachmentLoader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Bone" Collapsed="true">
+    <Position X="32.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAAAAAAEBAAACgAAACAgAAAAAAAABwAAAAAAA=</HashCode>
+      <FileName>External\spine\Bone.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BoneData" Collapsed="true">
+    <Position X="34" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAECAAAACAAAEAAAAAABgAAAAAAA=</HashCode>
+      <FileName>External\spine\BoneData.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Json" Collapsed="true">
+    <Position X="37.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAEAAAAAAAAAAACAAAAAAAAFgAAAAABAAAIAAAA=</HashCode>
+      <FileName>External\spine\Json.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RegionAttachment" Collapsed="true">
+    <Position X="37.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAAgAwAAAAAQAQACAAAACAAAAAABAACBgAAgAAgg=</HashCode>
+      <FileName>External\spine\RegionAttachment.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Skeleton" Collapsed="true">
+    <Position X="30.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAABACAAAAAQAAggAAIAAAAAAAAoRQBxIAAAAAA=</HashCode>
+      <FileName>External\spine\Skeleton.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_03cc_1" Collapsed="true">
+    <Position X="23" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAQAAgAAAIAAAgAEAAQQAIAAAAAAAA=</HashCode>
+      <FileName>spine\SkeletonData.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_03cd_1" Collapsed="true">
+    <Position X="15" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAEAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>spine\SkeletonJson.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_03ce_1" Collapsed="true">
+    <Position X="11" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>spine\Skin.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Slot" Collapsed="true">
+    <Position X="32.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAoAQARAABAAgA=</HashCode>
+      <FileName>External\spine\Slot.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_03d0_1" Collapsed="true">
+    <Position X="7" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAEAAAoAQABAAAAAAA=</HashCode>
+      <FileName>spine\SlotData.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="p2t::Edge" Collapsed="true">
+    <Position X="37.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAA=</HashCode>
+      <FileName>External\poly2tri\common\shapes.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="p2t::Point" Collapsed="true">
+    <Position X="35.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAoAAAEAQAAQBAABAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>External\poly2tri\common\shapes.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="p2t::Node" Collapsed="true">
+    <Position X="30.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAQAAAAAAACAAAABAAAMAAAA=</HashCode>
+      <FileName>External\poly2tri\sweep\advancing_front.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0021_1" Collapsed="true">
+    <Position X="28" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEgAgAAAAAAAAAAAJAAAAAAAAAAAIAAAAAAAgAAAA=</HashCode>
+      <FileName>External\spine\AnimationState.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0025_1" Collapsed="true">
+    <Position X="24" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Atlas.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_003b_1" Collapsed="true">
+    <Position X="30.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\SkeletonJson.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_003d_1" Collapsed="true">
+    <Position X="32.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Skin.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_003f_1" Collapsed="true">
+    <Position X="34" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Slot.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0020_1" Collapsed="true">
+    <Position X="1" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAKAAAAAIAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Animation.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0020_2" Collapsed="true">
+    <Position X="9" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Animation.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0020_3" Collapsed="true">
+    <Position X="25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAgAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>External\spine\Animation.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0020_4" Collapsed="true">
+    <Position X="24" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAgAAAAAEAAAAAAAAAAAAAAAAAAgAAAAAQAAAAA=</HashCode>
+      <FileName>External\spine\Animation.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0022_1" Collapsed="true">
+    <Position X="20" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAACAAAAAAAAIAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>External\spine\AnimationState.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0024_1" Collapsed="true">
+    <Position X="24" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\AnimationStateData.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0026_4" Collapsed="true">
+    <Position X="24" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>External\spine\Atlas.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0028_1" Collapsed="true">
+    <Position X="16" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\AtlasAttachmentLoader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_003a_1" Collapsed="true">
+    <Position X="12" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAQAAgAAAIAAAgAEAAQQAIAAAAAAAA=</HashCode>
+      <FileName>External\spine\SkeletonData.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_003c_1" Collapsed="true">
+    <Position X="20" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAEAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\SkeletonJson.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_003e_1" Collapsed="true">
+    <Position X="20" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Skin.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0042_1" Collapsed="true">
+    <Position X="20" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAEAAAoAQABAAAAAAA=</HashCode>
+      <FileName>External\spine\SlotData.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="_Internal" Collapsed="true">
+    <Position X="28" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\AnimationState.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Str" Collapsed="true">
+    <Position X="24" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Atlas.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ClipperLib::long64" Collapsed="true">
+    <Position X="35.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ClipperLib::ulong64" Collapsed="true">
+    <Position X="34" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ClipperLib::Polygon" Collapsed="true">
+    <Position X="37.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ClipperLib::Polygons" Collapsed="true">
+    <Position X="39.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ClipperLib::PolyNodes" Collapsed="true">
+    <Position X="30.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ClipperLib::PolyOutList" Collapsed="true">
+    <Position X="32.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ClipperLib::EdgeList" Collapsed="true">
+    <Position X="30.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ClipperLib::JoinList" Collapsed="true">
+    <Position X="34" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ClipperLib::HorzJoinList" Collapsed="true">
+    <Position X="32.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Animation" Collapsed="true">
+    <Position X="1" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Animation.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CurveTimeline" Collapsed="true">
+    <Position X="9" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Animation.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RotateTimeline" Collapsed="true">
+    <Position X="8" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Animation.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TranslateTimeline" Collapsed="true">
+    <Position X="3" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Animation.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ScaleTimeline" Collapsed="true">
+    <Position X="5" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Animation.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ColorTimeline" Collapsed="true">
+    <Position X="27" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Animation.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="AttachmentTimeline" Collapsed="true">
+    <Position X="24" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Animation.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="AnimationState" Collapsed="true">
+    <Position X="20" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\AnimationState.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="AnimationStateData" Collapsed="true">
+    <Position X="24" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\AnimationStateData.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="AtlasFormat" Collapsed="true">
+    <Position X="24" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Atlas.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="AtlasFilter" Collapsed="true">
+    <Position X="5" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Atlas.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="AtlasWrap" Collapsed="true">
+    <Position X="24" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Atlas.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Atlas" Collapsed="true">
+    <Position X="24" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Atlas.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="AtlasAttachmentLoader" Collapsed="true">
+    <Position X="16" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\AtlasAttachmentLoader.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="AttachmentType" Collapsed="true">
+    <Position X="1" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Attachment.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="VertexIndex" Collapsed="true">
+    <Position X="21" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\RegionAttachment.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SkeletonData" Collapsed="true">
+    <Position X="12" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\SkeletonData.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SkeletonJson" Collapsed="true">
+    <Position X="20" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\SkeletonJson.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Skin" Collapsed="true">
+    <Position X="20" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Skin.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SlotData" Collapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\SlotData.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="ClipperLib::Direction" Collapsed="true">
+    <Position X="34" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\Clipper\clipper.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClipperLib::ClipType" Collapsed="true">
+    <Position X="32.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAQAAAAAAEAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClipperLib::PolyType" Collapsed="true">
+    <Position X="34" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClipperLib::PolyFillType" Collapsed="true">
+    <Position X="32.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgBAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClipperLib::JoinType" Collapsed="true">
+    <Position X="39.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAACAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClipperLib::EdgeSide" Collapsed="true">
+    <Position X="35.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAEAAAAAAA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClipperLib::IntersectProtects" Collapsed="true">
+    <Position X="37.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAQAAAAAAAQAAAAQAAAAAAAA=</HashCode>
+      <FileName>External\Clipper\clipper.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0156_1" Collapsed="true">
+    <Position X="35.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAACABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TiXmlEncoding" Collapsed="true">
+    <Position X="35.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAABAAAAAAAABAAAA=</HashCode>
+      <FileName>External\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_03c2_1" Collapsed="true">
+    <Position X="15" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAAAAAAAAAAAAAAQAAAgAAAAAAAAAAAEAAAAAAgIA=</HashCode>
+      <FileName>spine\Atlas.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_03c2_2" Collapsed="true">
+    <Position X="11" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQBAAABAAAAAAIAAAAgAAAAIBAAAAAAAAAAAA=</HashCode>
+      <FileName>spine\Atlas.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_03c2_3" Collapsed="true">
+    <Position X="7" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAgAAAAAAAAAAAAQA=</HashCode>
+      <FileName>spine\Atlas.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_03c4_1" Collapsed="true">
+    <Position X="27" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>spine\Attachment.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_03ca_1" Collapsed="true">
+    <Position X="26" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>spine\RegionAttachment.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="p2t::Orientation" Collapsed="true">
+    <Position X="30.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAABAAACAAAAAAAAAAA=</HashCode>
+      <FileName>External\poly2tri\common\utils.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0049_1" Collapsed="true">
+    <Position X="30.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAACABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0026_1" Collapsed="true">
+    <Position X="24" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAAAAAAAAAAAAAAQAAAgAAAAAAAAAAAEAAAAAAgIA=</HashCode>
+      <FileName>External\spine\Atlas.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0026_2" Collapsed="true">
+    <Position X="5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQBAAABAAAAAAIAAAAgAAAAIBAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Atlas.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0026_3" Collapsed="true">
+    <Position X="24" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAgAAAAAAAAAAAAQA=</HashCode>
+      <FileName>External\spine\Atlas.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_002a_1" Collapsed="true">
+    <Position X="1" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>External\spine\Attachment.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0036_1" Collapsed="true">
+    <Position X="21" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>External\spine\RegionAttachment.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

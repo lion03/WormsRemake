@@ -1,0 +1,9 @@
+<map id="Ground::setClipOffPoly" name="Ground::setClipOffPoly">
+<area shape="rect" id="node3" href="$class_bullet.html#a9497575221a4fc63ee275834bd0fee24" title="Explodes this object. " alt="" coords="219,5,327,32"/>
+<area shape="rect" id="node5" href="$_contatct_listener_8h.html#afb966521655817515f90ef2cfc3cac8b" title="Projectile ground. " alt="" coords="387,56,503,83"/>
+<area shape="rect" id="node12" href="$class_missile.html#aa86a59da99d9f784d64ba8afbd9f9a8a" title="Explodes this object. " alt="" coords="387,157,503,184"/>
+<area shape="rect" id="node14" href="$class_projectile.html#a6ff0bc0a5746332f1bfe438c1a95ef0a" title="Explodes this object. " alt="" coords="209,107,338,133"/>
+<area shape="rect" id="node7" href="$_contatct_listener_8h.html#a42399b2e46a858209ab7ec24f8697377" title="Ground projectile. " alt="" coords="557,56,675,83"/>
+<area shape="rect" id="node9" href="$class_contatct_listener.html#a6977bf198fce83084427d2fbafa3bacb" title="Initializes a new instance of the ContatctListener class. " alt="" coords="729,49,903,90"/>
+<area shape="rect" id="node17" href="$_contatct_listener_8h.html#a0db222e0fb07a6713cb475777d9b4d2d" title="Projectile detonate. " alt="" coords="553,107,679,133"/>
+</map>

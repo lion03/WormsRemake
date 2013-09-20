@@ -1,0 +1,4 @@
+<map id="MenuState::Init" name="MenuState::Init">
+<area shape="rect" id="node3" href="$class_game_engine.html#a7c82c93a73d71097936fea7f19be141c" title="Quits this object. " alt="" coords="178,5,307,32"/>
+<area shape="rect" id="node5" href="$class_play_state.html#a9333e16ff9fb0fc5410e47a0170a3872" title="Gets the instence. " alt="" coords="165,56,320,83"/>
+</map>

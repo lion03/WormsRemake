@@ -1,0 +1,5 @@
+<map id="GameEngine::ChangeState" name="GameEngine::ChangeState">
+<area shape="rect" id="node3" href="$class_game_state.html#a8ff3625b798d6f0021dcf3314cee9256" title="Change state. " alt="" coords="240,5,411,32"/>
+<area shape="rect" id="node5" href="$class_menu_state.html#af9b31403ec7eac17244bdb2deebb73da" title="Updates the given game. " alt="" coords="258,56,393,83"/>
+<area shape="rect" id="node7" href="$class_splash_state.html#ac60f06585d847c78d61f454a3ab8a649" title="Handles the events described by game. " alt="" coords="235,107,415,133"/>
+</map>

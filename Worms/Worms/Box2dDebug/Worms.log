@@ -1,0 +1,66 @@
+﻿  main.cpp
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\windef.h(126): warning C4005: 'APIENTRY' : macro redefinition
+          c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\glfw.h(74) : see previous definition of 'APIENTRY'
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\wingdi.h(30): warning C4005: 'WINGDIAPI' : macro redefinition
+          c:\program files (x86)\microsoft sdks\windows\v7.0a\include\gl\glfw.h(91) : see previous definition of 'WINGDIAPI'
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\objectdetroyer.h(27): warning C4150: deletion of pointer to incomplete type 'GameObject'; no destructor called
+          c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\objectdetroyer.h(5) : see declaration of 'GameObject'
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\gameobject.h(48): warning C4172: returning address of local variable or temporary
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(81): warning C4018: '<' : signed/unsigned mismatch
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(84): warning C4244: 'argument' : conversion from 'double' to 'ClipperLib::long64', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(84): warning C4244: 'argument' : conversion from 'double' to 'ClipperLib::long64', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(107): warning C4018: '<' : signed/unsigned mismatch
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(117): warning C4018: '<' : signed/unsigned mismatch
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(120): warning C4244: 'argument' : conversion from 'ClipperLib::long64' to 'double', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(120): warning C4244: 'argument' : conversion from 'ClipperLib::long64' to 'double', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(131): warning C4018: '<' : signed/unsigned mismatch
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(134): warning C4244: 'argument' : conversion from 'double' to 'float32', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(134): warning C4244: 'argument' : conversion from 'double' to 'float32', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(135): warning C4244: 'argument' : conversion from 'double' to 'float32', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(135): warning C4244: 'argument' : conversion from 'double' to 'float32', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(136): warning C4244: 'argument' : conversion from 'double' to 'float32', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(136): warning C4244: 'argument' : conversion from 'double' to 'float32', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(154): warning C4018: '<' : signed/unsigned mismatch
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(162): warning C4018: '<' : signed/unsigned mismatch
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(164): warning C4244: 'argument' : conversion from 'const ClipperLib::long64' to 'float32', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(164): warning C4244: 'argument' : conversion from 'const ClipperLib::long64' to 'float32', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(165): warning C4244: 'argument' : conversion from 'const ClipperLib::long64' to 'double', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(165): warning C4244: 'argument' : conversion from 'const ClipperLib::long64' to 'double', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(193): warning C4018: '<' : signed/unsigned mismatch
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(195): warning C4018: '<' : signed/unsigned mismatch
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(210): warning C4018: '<' : signed/unsigned mismatch
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(250): warning C4018: '<' : signed/unsigned mismatch
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(259): warning C4018: '<' : signed/unsigned mismatch
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(265): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(265): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(266): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(266): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(267): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(267): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(268): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\ground.h(268): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\projectile.h(47): warning C4244: 'argument' : conversion from 'const float' to 'ClipperLib::long64', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\projectile.h(47): warning C4244: 'argument' : conversion from 'const float' to 'ClipperLib::long64', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\worm.h(42): warning C4244: 'argument' : conversion from 'int' to 'float32', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\worm.h(42): warning C4244: 'argument' : conversion from 'int' to 'float32', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\worm.h(110): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\worm.h(128): warning C4244: 'argument' : conversion from 'int' to 'float32', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\worm.h(128): warning C4244: 'argument' : conversion from 'int' to 'float32', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\worm.h(163): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\worm.h(163): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\main.cpp(80): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\main.cpp(119): warning C4305: 'argument' : truncation from 'double' to 'float32'
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\main.cpp(140): warning C4018: '<' : signed/unsigned mismatch
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\main.cpp(116): warning C4101: 'min' : unreferenced local variable
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\main.cpp(116): warning C4101: 'max' : unreferenced local variable
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\main.cpp(222): warning C4244: 'argument' : conversion from 'float' to 'ClipperLib::long64', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\main.cpp(222): warning C4244: 'argument' : conversion from 'float' to 'ClipperLib::long64', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\main.cpp(270): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\main.cpp(270): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\main.cpp(326): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\leon laptop\documents\visual studio 2012\projects\worms\worms\main.cpp(326): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+  Render.cpp
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+sfml-main-d.lib(SFML_Main.cpp.obj) : warning LNK4099: PDB 'sfml-main-d.pdb' was not found with 'sfml-main-d.lib(SFML_Main.cpp.obj)' or at 'C:\Users\Leon Laptop\documents\visual studio 2012\Projects\Worms\Box2dDebug\sfml-main-d.pdb'; linking object as if no debug info
+  Worms.vcxproj -> C:\Users\Leon Laptop\documents\visual studio 2012\Projects\Worms\Box2dDebug\Worms.exe

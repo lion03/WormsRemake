@@ -1,0 +1,14 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node3" href="$class_game_object.html" title="Game object. " alt="" coords="155,56,250,83"/>
+<area shape="rect" id="node17" href="$class_gui_object.html" title="Graphical user interface object. " alt="" coords="163,208,243,235"/>
+<area shape="rect" id="node23" href="$class_team.html" title="Team. " alt="" coords="175,107,230,133"/>
+<area shape="rect" id="node5" href="$class_ground.html" title="Ground. " alt="" coords="305,5,369,32"/>
+<area shape="rect" id="node7" href="$class_projectile.html" title="Projectile. " alt="" coords="299,56,375,83"/>
+<area shape="rect" id="node13" href="$class_water.html" title="Water" alt="" coords="309,107,366,133"/>
+<area shape="rect" id="node15" href="$class_worm.html" title="Worm. " alt="" coords="309,157,366,184"/>
+<area shape="rect" id="node9" href="$class_bullet.html" title="Bullet" alt="" coords="429,31,483,57"/>
+<area shape="rect" id="node11" href="$class_missile.html" title="Missile" alt="" coords="425,81,487,108"/>
+<area shape="rect" id="node19" href="$class_arsenal.html" title="Arsenal. " alt="" coords="304,208,371,235"/>
+<area shape="rect" id="node21" href="$class_button.html" title="Button. " alt="" coords="307,259,367,285"/>
+<area shape="rect" id="node24" href="$class_event_listener.html" title="Event listener. " alt="" coords="6,157,106,184"/>
+</map>

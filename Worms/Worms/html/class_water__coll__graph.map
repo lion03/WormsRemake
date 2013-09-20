@@ -1,0 +1,5 @@
+<map id="Water" name="Water">
+<area shape="rect" id="node2" href="$class_game_object.html" title="Game object. " alt="" coords="53,96,147,123"/>
+<area shape="rect" id="node8" href="$struct_game_object_1_1_entety.html" title="Entety. " alt="" coords="100,187,241,213"/>
+<area shape="rect" id="node6" href="$class_object_detroyer.html" title="Object destroyer. " alt="" coords="104,5,213,32"/>
+</map>

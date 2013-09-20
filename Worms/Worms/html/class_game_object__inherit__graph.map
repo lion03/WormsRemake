@@ -1,0 +1,8 @@
+<map id="GameObject" name="GameObject">
+<area shape="rect" id="node5" href="$class_ground.html" title="Ground. " alt="" coords="5,155,69,181"/>
+<area shape="rect" id="node7" href="$class_projectile.html" title="Projectile. " alt="" coords="94,155,169,181"/>
+<area shape="rect" id="node13" href="$class_water.html" title="Water" alt="" coords="194,155,251,181"/>
+<area shape="rect" id="node15" href="$class_worm.html" title="Worm. " alt="" coords="275,155,332,181"/>
+<area shape="rect" id="node9" href="$class_bullet.html" title="Bullet" alt="" coords="63,229,117,256"/>
+<area shape="rect" id="node11" href="$class_missile.html" title="Missile" alt="" coords="142,229,204,256"/>
+</map>

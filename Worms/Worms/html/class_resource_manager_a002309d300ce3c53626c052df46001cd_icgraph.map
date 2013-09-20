@@ -1,0 +1,7 @@
+<map id="ResourceManager::getResource" name="ResourceManager::getResource">
+<area shape="rect" id="node3" href="$class_bazooka.html#a5bb592652048ac4dadbc1f80a97dbf71" title="Initializes a new instance of the Bazooka class. " alt="" coords="262,5,394,32"/>
+<area shape="rect" id="node5" href="$class_ground.html#adfd9b56e033d3afc8123f68d5a10d072" title="Initializes a new instance of the Ground class. " alt="" coords="271,56,385,83"/>
+<area shape="rect" id="node7" href="$_main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Main entry&#45;point for this application. " alt="" coords="303,107,353,133"/>
+<area shape="rect" id="node9" href="$class_shotgun.html#af3ceb469daf439e349cadecb4fc41abd" title="Initializes a new instance of the Shotgun class. " alt="" coords="265,157,391,184"/>
+<area shape="rect" id="node11" href="$class_uzi.html#afebc7b947dc832de4223f9e91a9525a4" title="Initializes a new instance of the Uzi class. " alt="" coords="294,208,362,235"/>
+</map>

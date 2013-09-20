@@ -1,0 +1,20 @@
+<map id="Team.cpp" name="Team.cpp">
+<area shape="rect" id="node3" href="$_team_8h.html" title="Declares the team class. " alt="" coords="4345,155,4409,181"/>
+<area shape="rect" id="node101" href="$_weapon_8h.html" title="Declares the weapon class. " alt="" coords="1825,229,1905,256"/>
+<area shape="rect" id="node124" href="$_arsenal_8h.html" title="Declares the arsenal class. " alt="" coords="2352,80,2429,107"/>
+<area shape="rect" id="node7" href="$_event_dispatcher_8h.html" title="Declares the event dispatcher class. " alt="" coords="4362,469,4488,496"/>
+<area shape="rect" id="node17" href="$_worm_8h.html" title="Declares the worm class. " alt="" coords="2405,229,2472,256"/>
+<area shape="rect" id="node26" href="$_game_object_8h.html" title="Declares the game object class. " alt="" coords="579,469,679,496"/>
+<area shape="rect" id="node39" href="$_projectile_8h.html" title="Declares the projectile class. " alt="" coords="191,312,277,339"/>
+<area shape="rect" id="node62" href="$_macros_8h.html" title="Declares the macros class. " alt="" coords="755,469,831,496"/>
+<area shape="rect" id="node32" href="$_object_detroyer_8h.html" title="Declares the object destroyer class. " alt="" coords="613,544,733,571"/>
+<area shape="rect" id="node48" href="$_resource_manager_8h.html" title="Declares the resource manager class. " alt="" coords="299,469,437,496"/>
+<area shape="rect" id="node54" href="$_ground_8h.html" title="Declares the ground class. " alt="" coords="272,395,347,421"/>
+<area shape="rect" id="node128" href="$_gui_object_8h.html" title="Declares the graphical user interface object class. " alt="" coords="4196,395,4287,421"/>
+<area shape="rect" id="node136" href="$_button_8h.html" title="Declares the button class. " alt="" coords="4147,312,4217,339"/>
+<area shape="rect" id="node141" href="$_bazooka_8h.html" title="Declares the bazooka class. " alt="" coords="2253,155,2336,181"/>
+<area shape="rect" id="node144" href="$_shotgun_8h.html" title="Declares the shotgun class. " alt="" coords="1054,155,1135,181"/>
+<area shape="rect" id="node151" href="$_uzi_8h.html" title="Declares the uzi class. " alt="" coords="1839,155,1891,181"/>
+<area shape="rect" id="node130" href="$_action_func_8h.html" title="Declares the action function class. This Class is initial base for delegate pattern, The main pattern that is used for implementation of GUI in VC++ and C#, In an abstract base is used to get the possibility of storing functions with different signatures in single container and to trigger them from it. " alt="" coords="4137,469,4236,496"/>
+<area shape="rect" id="node148" href="$_bullet_8h_source.html" title="Bullet.h" alt="" coords="207,229,273,256"/>
+</map>

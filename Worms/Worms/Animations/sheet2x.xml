@@ -1,0 +1,32 @@
+<TextureAtlas imagePath="sheet2x.png">
+	<SubTexture name="arrowdnb_000.png" x="108" y="92" width="16" height="32"/>
+	<SubTexture name="arrowdnb_001.png" x="108" y="60" width="16" height="30"/>
+	<SubTexture name="arrowdnb_002.png" x="108" y="29" width="18" height="29"/>
+	<SubTexture name="arrowdnb_003.png" x="88" y="53" width="18" height="27"/>
+	<SubTexture name="arrowdnb_004.png" x="88" y="82" width="18" height="27"/>
+	<SubTexture name="arrowdnb_005.png" x="66" y="77" width="20" height="25"/>
+	<SubTexture name="arrowdnb_006.png" x="68" y="26" width="20" height="25"/>
+	<SubTexture name="arrowdnb_007.png" x="44" y="90" width="20" height="24"/>
+	<SubTexture name="arrowdnb_008.png" x="50" y="0" width="20" height="24"/>
+	<SubTexture name="arrowdnb_009.png" x="46" y="51" width="20" height="24"/>
+	<SubTexture name="arrowdnb_010.png" x="0" y="91" width="20" height="23"/>
+	<SubTexture name="arrowdnb_011.png" x="28" y="26" width="20" height="23"/>
+	<SubTexture name="arrowdnb_012.png" x="0" y="91" width="20" height="23"/>
+	<SubTexture name="arrowdnb_013.png" x="46" y="51" width="20" height="24"/>
+	<SubTexture name="arrowdnb_014.png" x="28" y="0" width="20" height="24"/>
+	<SubTexture name="arrowdnb_015.png" x="24" y="64" width="20" height="24"/>
+	<SubTexture name="arrowdnb_016.png" x="68" y="26" width="20" height="25"/>
+	<SubTexture name="arrowdnb_017.png" x="22" y="91" width="20" height="25"/>
+	<SubTexture name="arrowdnb_018.png" x="88" y="82" width="18" height="27"/>
+	<SubTexture name="arrowdnb_019.png" x="90" y="0" width="18" height="27"/>
+	<SubTexture name="arrowdnb_020.png" x="108" y="29" width="18" height="29"/>
+	<SubTexture name="arrowdnb_021.png" x="108" y="60" width="16" height="30"/>
+	<SubTexture name="arrowdnb_022.png" x="108" y="92" width="16" height="32"/>
+	<SubTexture name="arrowdnb_023.png" x="0" y="64" width="22" height="25"/>
+	<SubTexture name="arrowdnb_024.png" x="0" y="41" width="24" height="21"/>
+	<SubTexture name="arrowdnb_025.png" x="0" y="20" width="26" height="19"/>
+	<SubTexture name="arrowdnb_026.png" x="0" y="0" width="26" height="18"/>
+	<SubTexture name="arrowdnb_027.png" x="0" y="20" width="26" height="19"/>
+	<SubTexture name="arrowdnb_028.png" x="0" y="41" width="24" height="21"/>
+	<SubTexture name="arrowdnb_029.png" x="0" y="64" width="22" height="25"/>
+</TextureAtlas>

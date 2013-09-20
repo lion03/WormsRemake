@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<GameAssets>
+	<Assets type = "texture">
+		<texture name = "GND" path = "Resource/Maps/textures/artText.gif" retpeted = "true">
+		<texture name = "QuitGame" path = "Resource/Other/QuitGame.png" retpeted = "false">
+		<texture name = "NewGame" path = "Resource/Other/NewGame.png" retpeted = "false">
+	</Assets>
+	<Assets type = "soundBuffer">
+		<sound name = "Resource/Sound/SFX/explosion3.wav" path = "bazookaExp">
+		<sound name = "Resource/Sound/SFX/rocketrelease.wav" path = "bazookaFire">
+		<sound name = "Resource/Sound/SFX/shotgunreload.wav" path = "shotGunLoad">
+		<sound name = "Resource/Sound/SFX/shotgunfire.wav" path = "shotGunFire">
+		<sound name = "Resource/Sound/SFX/uzifire.wav" path = "uziFire">
+	</Assets>
+	<Assets type = "map">
+	
+	</Assets>
+	
+</GameAssets>

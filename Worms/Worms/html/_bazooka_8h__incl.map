@@ -1,0 +1,10 @@
+<map id="Bazooka.h" name="Bazooka.h">
+<area shape="rect" id="node3" href="$_weapon_8h.html" title="Declares the weapon class. " alt="" coords="2874,80,2955,107"/>
+<area shape="rect" id="node5" href="$_projectile_8h.html" title="Declares the projectile class. " alt="" coords="555,163,641,189"/>
+<area shape="rect" id="node45" href="$_macros_8h.html" title="Declares the macros class. " alt="" coords="1286,320,1361,347"/>
+<area shape="rect" id="node13" href="$_game_object_8h.html" title="Declares the game object class. " alt="" coords="225,320,324,347"/>
+<area shape="rect" id="node29" href="$_resource_manager_8h.html" title="Declares the resource manager class. " alt="" coords="1072,320,1211,347"/>
+<area shape="rect" id="node35" href="$_ground_8h.html" title="Declares the ground class. " alt="" coords="656,245,731,272"/>
+<area shape="rect" id="node20" href="$_object_detroyer_8h.html" title="Declares the object destroyer class. " alt="" coords="71,395,191,421"/>
+<area shape="rect" id="node54" href="$_map_loader_8h_source.html" title="MapLoader.h" alt="" coords="601,320,697,347"/>
+</map>

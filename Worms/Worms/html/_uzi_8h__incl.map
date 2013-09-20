@@ -1,0 +1,10 @@
+<map id="Uzi.h" name="Uzi.h">
+<area shape="rect" id="node3" href="$_macros_8h.html" title="Declares the macros class. " alt="" coords="2999,320,3075,347"/>
+<area shape="rect" id="node9" href="$_weapon_8h.html" title="Declares the weapon class. " alt="" coords="2953,80,3031,107"/>
+<area shape="rect" id="node11" href="$_projectile_8h.html" title="Declares the projectile class. " alt="" coords="825,163,911,189"/>
+<area shape="rect" id="node18" href="$_game_object_8h.html" title="Declares the game object class. " alt="" coords="187,320,287,347"/>
+<area shape="rect" id="node34" href="$_resource_manager_8h.html" title="Declares the resource manager class. " alt="" coords="1000,320,1139,347"/>
+<area shape="rect" id="node40" href="$_ground_8h.html" title="Declares the ground class. " alt="" coords="737,245,812,272"/>
+<area shape="rect" id="node25" href="$_object_detroyer_8h.html" title="Declares the object destroyer class. " alt="" coords="71,395,191,421"/>
+<area shape="rect" id="node55" href="$_map_loader_8h_source.html" title="MapLoader.h" alt="" coords="726,320,823,347"/>
+</map>

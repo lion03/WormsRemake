@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\External">
+      <UniqueIdentifier>{24ceb96e-ddba-4c8f-8a53-44326321cb40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External\Poly2Tri">
+      <UniqueIdentifier>{5f8e0069-5a32-4db8-a215-d5759943537c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External\Clipper">
+      <UniqueIdentifier>{cac68ca7-7b9e-4d2f-9472-45a2c7359091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External">
+      <UniqueIdentifier>{89803499-c4d7-4233-804e-343a06b192f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External\Poly2Tri">
+      <UniqueIdentifier>{c005018b-215a-465e-baf4-36602b81cd93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External\Clipper">
+      <UniqueIdentifier>{ad5fce1e-a8fe-4d9b-ac00-ea3bef567bd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External\TinyXML">
+      <UniqueIdentifier>{39f1335b-34af-4eea-8287-e5cb5dcd354e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External\TinyXML">
+      <UniqueIdentifier>{5222bcf6-bd6d-4468-83f7-236336aa0103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EngineCore">
+      <UniqueIdentifier>{e06308be-7d9b-4be6-8e9e-282cde3e62b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameCore">
+      <UniqueIdentifier>{2841ce20-5b53-4933-853d-35675426ffd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameCore">
+      <UniqueIdentifier>{15dbc9c4-5666-4571-8dd4-e0d2330f8509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EngienCore">
+      <UniqueIdentifier>{cd0aefd0-df13-4d7f-84c5-778bc5d501e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External\spine">
+      <UniqueIdentifier>{4c65283b-f833-4fc3-a825-6791c2096db2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External\spine">
+      <UniqueIdentifier>{95c16b13-a485-4d95-b8ee-4936fb9d0b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameCore\Weapons">
+      <UniqueIdentifier>{dbf73caf-fb76-4f44-af34-58149df8bbc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameCore\Balistics">
+      <UniqueIdentifier>{821c5cb8-5ebe-4dab-b505-e2c6049d7faf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameCore\Weapon">
+      <UniqueIdentifier>{c614b74d-7966-4c3d-9739-d03e5d7955ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameCore\Balistics">
+      <UniqueIdentifier>{890e0451-8bf4-4479-ad4b-99ebad74d608}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StandardCursor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Worm.cpp">
+      <Filter>Source Files\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Arsenal.cpp">
+      <Filter>Source Files\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Team.cpp">
+      <Filter>Source Files\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayState.cpp">
+      <Filter>Source Files\EngienCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>Source Files\External</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Clipper\clipper.cpp">
+      <Filter>Source Files\External\Clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="External\poly2tri\sweep\advancing_front.cc">
+      <Filter>Source Files\External\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="External\poly2tri\sweep\cdt.cc">
+      <Filter>Source Files\External\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="External\poly2tri\common\shapes.cc">
+      <Filter>Source Files\External\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="External\poly2tri\sweep\sweep.cc">
+      <Filter>Source Files\External\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="External\poly2tri\sweep\sweep_context.cc">
+      <Filter>Source Files\External\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="External\spine\Animation.c">
+      <Filter>Source Files\External\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="External\spine\extension.c">
+      <Filter>Source Files\External\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="External\spine\Atlas.c">
+      <Filter>Source Files\External\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="External\spine\SkeletonJson.c">
+      <Filter>Source Files\External\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="External\spine\spine-sfml.cpp">
+      <Filter>Source Files\External\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="External\spine\AnimationState.c">
+      <Filter>Source Files\External\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="External\spine\AnimationStateData.c">
+      <Filter>Source Files\External\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="External\spine\AtlasAttachmentLoader.c">
+      <Filter>Source Files\External\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="External\spine\Attachment.c">
+      <Filter>Source Files\External\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="External\spine\AttachmentLoader.c">
+      <Filter>Source Files\External\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="External\spine\Bone.c">
+      <Filter>Source Files\External\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="External\spine\BoneData.c">
+      <Filter>Source Files\External\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="External\spine\Json.c">
+      <Filter>Source Files\External\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="External\spine\RegionAttachment.c">
+      <Filter>Source Files\External\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="External\spine\Skeleton.c">
+      <Filter>Source Files\External\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="External\spine\SkeletonData.c">
+      <Filter>Source Files\External\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="External\spine\Skin.c">
+      <Filter>Source Files\External\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="External\spine\Slot.c">
+      <Filter>Source Files\External\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="External\spine\SlotData.c">
+      <Filter>Source Files\External\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="External\TinyXML\tinystr.cpp">
+      <Filter>Source Files\External\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="External\TinyXML\tinyxml.cpp">
+      <Filter>Source Files\External\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="External\TinyXML\tinyxmlerror.cpp">
+      <Filter>Source Files\External\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="External\TinyXML\tinyxmlparser.cpp">
+      <Filter>Source Files\External\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Source Files\EngienCore</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files\EngienCore</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>Source Files\EngienCore</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashState.cpp">
+      <Filter>Source Files\EngienCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Source Files\GameCore\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Bazooka.cpp">
+      <Filter>Source Files\GameCore\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Uzi.cpp">
+      <Filter>Source Files\GameCore\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Shotgun.cpp">
+      <Filter>Source Files\GameCore\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\GameCore\Balistics</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile.cpp">
+      <Filter>Source Files\GameCore\Balistics</Filter>
+    </ClCompile>
+    <ClCompile Include="EventDispatcher.cpp">
+      <Filter>Source Files\EngienCore</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectDetroyer.cpp">
+      <Filter>Source Files\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\EngienCore</Filter>
+    </ClCompile>
+    <ClCompile Include="MapLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewGameState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Source Files\GameCore\Balistics</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileCounter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundDB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Header Files\EngineCore</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashState.h">
+      <Filter>Header Files\EngineCore</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayState.h">
+      <Filter>Header Files\EngineCore</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>Header Files\EngineCore</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectDetroyer.h">
+      <Filter>Header Files\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="ContatctListener.h">
+      <Filter>Header Files\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files\EngineCore</Filter>
+    </ClInclude>
+    <ClInclude Include="EventDispatcher.h">
+      <Filter>Header Files\EngineCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Worm.h">
+      <Filter>Header Files\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>Header Files\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StandardCursor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Arsenal.h">
+      <Filter>Header Files\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionFunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Header Files\External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\TinyXML\tinystr.h">
+      <Filter>Header Files\External\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="External\TinyXML\tinyxml.h">
+      <Filter>Header Files\External\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="External\poly2tri\sweep\advancing_front.h">
+      <Filter>Header Files\External\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="External\poly2tri\sweep\cdt.h">
+      <Filter>Header Files\External\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="External\poly2tri\poly2tri.h">
+      <Filter>Header Files\External\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="External\poly2tri\common\shapes.h">
+      <Filter>Header Files\External\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="External\poly2tri\sweep\sweep.h">
+      <Filter>Header Files\External\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="External\poly2tri\sweep\sweep_context.h">
+      <Filter>Header Files\External\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="External\poly2tri\common\utils.h">
+      <Filter>Header Files\External\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="External\spine\Animation.h">
+      <Filter>Header Files\External\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="External\spine\AnimationState.h">
+      <Filter>Header Files\External\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="External\spine\AnimationStateData.h">
+      <Filter>Header Files\External\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="External\spine\Atlas.h">
+      <Filter>Header Files\External\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="External\spine\AtlasAttachmentLoader.h">
+      <Filter>Header Files\External\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="External\spine\Attachment.h">
+      <Filter>Header Files\External\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="External\spine\AttachmentLoader.h">
+      <Filter>Header Files\External\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="External\spine\Bone.h">
+      <Filter>Header Files\External\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="External\spine\BoneData.h">
+      <Filter>Header Files\External\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="External\spine\extension.h">
+      <Filter>Header Files\External\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="External\spine\Json.h">
+      <Filter>Header Files\External\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="External\spine\RegionAttachment.h">
+      <Filter>Header Files\External\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="External\spine\Skeleton.h">
+      <Filter>Header Files\External\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="External\spine\SkeletonData.h">
+      <Filter>Header Files\External\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="External\spine\SkeletonJson.h">
+      <Filter>Header Files\External\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="External\spine\Skin.h">
+      <Filter>Header Files\External\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="External\spine\Slot.h">
+      <Filter>Header Files\External\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="External\spine\SlotData.h">
+      <Filter>Header Files\External\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="External\spine\spine-sfml.h">
+      <Filter>Header Files\External\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="External\spine\spine.h">
+      <Filter>Header Files\External\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Clipper\clipper.hpp">
+      <Filter>Header Files\External\Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Header Files\GameCore\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Bazooka.h">
+      <Filter>Header Files\GameCore\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Shotgun.h">
+      <Filter>Header Files\GameCore\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Uzi.h">
+      <Filter>Header Files\GameCore\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\GameCore\Balistics</Filter>
+    </ClInclude>
+    <ClInclude Include="Missile.h">
+      <Filter>Header Files\GameCore\Balistics</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Header Files\GameCore\Balistics</Filter>
+    </ClInclude>
+    <ClInclude Include="MapLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGameState.h">
+      <Filter>Header Files\EngineCore</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileCounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Team.h">
+      <Filter>Header Files\GameCore</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Cursor.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
